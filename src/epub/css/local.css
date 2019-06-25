@@ -37,6 +37,8 @@ section[epub|type~="epigraph"] > *{
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+	font-size: 0.75em;
+	margin-top: 1em;
 }
 
 article{
@@ -54,8 +56,8 @@ article{
 
 [epub|type~="z3998:poem"] p > span{
 	display: block;
-	text-indent: -1em;
-	padding-left: 1em;
+	text-indent: -3em;
+	padding-left: 3em;
 }
 
 [epub|type~="z3998:poem"] p > span + br{
@@ -63,33 +65,33 @@ article{
 }
 
 p span.i1{
-	text-indent: -1em;
-	padding-left: 2em;
+	text-indent: -2em;
+	padding-left: 3em;
 }
 
 p span.i2{
-	text-indent: -1em;
-	padding-left: 4em;
+	text-indent: -3em;
+	padding-left: 5em;
 }
 
 p span.i3{
-	text-indent: -1em;
+	text-indent: -2em;
 	padding-left: 5em;
 }
 
 p span.i4{
-	text-indent: -1em;
-	padding-left: 6em;
+	text-indent: -3em;
+	padding-left: 7em;
 }
 
 p span.i5{
-	text-indent: -1em;
+	text-indent: -2em;
 	padding-left: 7em;
 }
 
 p span.i6{
-	text-indent: -1em;
-	padding-left: 14em;
+	text-indent: -3em;
+	padding-left: 15em;
 }
 
 p[epub|type~="z3998:dedication"]{
@@ -99,6 +101,7 @@ p[epub|type~="z3998:dedication"]{
 	text-indent: 0;
 }
 
-p.istanza{
+p.istanza,
+#l-envoi p{
 	font-style: italic;
 }
