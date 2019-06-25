@@ -6,21 +6,6 @@
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
-
 section[epub|type~="epigraph"]{
 	text-align: center;
 }
@@ -47,13 +32,73 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+article{
+	page-break-after: always;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 4em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 5em;
+}
+
+p span.i4{
+	text-indent: -1em;
+	padding-left: 6em;
+}
+
+p span.i5{
+	text-indent: -1em;
+	padding-left: 7em;
+}
+
+p span.i6{
+	text-indent: -1em;
+	padding-left: 14em;
+}
+
+p[epub|type~="z3998:dedication"]{
+	text-align: center;
+	font-variant: small-caps;
+	margin: 3em 0;
+	text-indent: 0;
+}
+
+p.istanza{
+	font-style: italic;
 }
