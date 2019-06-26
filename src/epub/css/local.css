@@ -94,11 +94,12 @@ p span.i6{
 	padding-left: 15em;
 }
 
-p[epub|type~="z3998:dedication"]{
+section[epub|type~="dedication"]{
 	text-align: center;
 	font-variant: small-caps;
 	margin: 3em 0;
 	text-indent: 0;
+	line-height: 1.5;
 }
 
 p.istanza,
