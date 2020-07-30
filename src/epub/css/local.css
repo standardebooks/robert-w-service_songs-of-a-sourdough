@@ -5,6 +5,7 @@
 [epub|type~="epilogue"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 section[epub|type~="epigraph"]{
@@ -43,7 +44,7 @@ span[epub|type~="subtitle"]{
 }
 
 article{
-	page-break-after: always;
+	break-after: page;
 }
 
 [epub|type~="z3998:poem"] p{
