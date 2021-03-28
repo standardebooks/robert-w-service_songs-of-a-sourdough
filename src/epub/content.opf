@@ -49,12 +49,12 @@
 		<meta property="file-as" refines="#author">Service, Robert W.</meta>
 		<meta property="se:name.person.full-name" refines="#author">Robert William Service</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Robert_W._Service</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80060393</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80060393</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Lawren Harris</dc:contributor>
 		<meta property="file-as" refines="#artist">Harris, Lawren</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lawren_Harris</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n83164686</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n83164686</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Clarke</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Clarke, David</meta>
