@@ -85,14 +85,14 @@ p span.i5{
 }
 
 p span.i6{
-	text-indent: -3em;
 	padding-left: 15em;
+	text-indent: -3em;
 }
 
 section[epub|type~="dedication"]{
-	text-align: center;
 	font-variant: small-caps;
-	margin: 3em 0;
-	text-indent: 0;
 	line-height: 1.5;
+	margin: 3em 0;
+	text-align: center;
+	text-indent: 0;
 }
