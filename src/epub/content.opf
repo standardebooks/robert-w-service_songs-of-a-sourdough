@@ -32,6 +32,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of poems about the Klondike Gold Rush.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Songs of a Sourdough&lt;/i&gt; is a collection of poems written in 1907 by &lt;a href="https://standardebooks.org/ebooks/robert-w-service"&gt;Robert &lt;abbr&gt;W.&lt;/abbr&gt; Service&lt;/a&gt; while he was working as a bank teller in Whitehorse, Yukon. The best-known poems are those describing life during the Klondike Gold Rush of the late 1890s, especially his ballads “The Shooting of Dan McGrew” and the “Cremation of Sam McGee.”&lt;/p&gt;
