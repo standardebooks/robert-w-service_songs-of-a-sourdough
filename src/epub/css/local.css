@@ -89,6 +89,10 @@ p span.i6{
 	text-indent: -3em;
 }
 
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
+
 section[epub|type~="dedication"]{
 	font-variant: small-caps;
 	line-height: 1.5;
