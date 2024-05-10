@@ -42,7 +42,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/25546</dc:source>
 		<dc:source>https://archive.org/details/songsofsourdoug00serv</dc:source>
 		<meta property="se:word-count">13083</meta>
-		<meta property="se:reading-ease.flesch">77.0</meta>
+		<meta property="se:reading-ease.flesch">77.1</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Songs_of_a_Sourdough</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/robert-w-service_songs-of-a-sourdough</meta>
 		<dc:creator id="author">Robert W. Service</dc:creator>
