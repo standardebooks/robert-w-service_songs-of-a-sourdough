@@ -73,6 +73,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Dave Halliday</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Halliday, Dave</meta>
+		<link href="https://github.com/hallidave" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -81,7 +82,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
